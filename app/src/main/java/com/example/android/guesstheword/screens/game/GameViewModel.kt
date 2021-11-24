@@ -21,7 +21,7 @@ class GameViewModel : ViewModel() {
     }
 
     // The timer
-    private lateinit var timer: CountDownTimer
+    private var timer: CountDownTimer
 
     // The current word
     private val _word = MutableLiveData<String>()
